@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "b3df97daea65252260b2c2513a94ee5a")
 
 # Main
 OWNER_ID = int(os.environ.get("OWNER_ID", "8076259467"))
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8070")
 
 # Database
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://linkshare:linkshare@cluster0.c1c6uc2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -23,7 +23,7 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Default
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 # Start pic
